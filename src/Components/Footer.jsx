@@ -12,7 +12,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className='py-2 mb-4'>
+    <div className='py-2 footer pb-5 mb-4'>
         <div className="container2">
             <div className="grid flex-wrap">
 
@@ -61,10 +61,10 @@ const Footer = () => {
                 <ul className='p-0 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 text-center text-sm-start mt-5 mt-sm-4'>
                     <p className='fw-bold'>Newsletter</p>
                     <li>Subscribe To Our Newsletter</li>
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, alias.</small>                   
+                    <small>Stay updated and always be in the know with the latest news and health tips.</small>                   
                     <form action="" className='d-flex footer-form'>
                         <input type="text" placeholder='Your Email..' />
-                        <button className='send'>Subscribe</button>
+                        <button className='main-btn'><span>Subscribe</span></button>
                     </form>                  
                 </ul>
 

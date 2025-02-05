@@ -11,24 +11,65 @@
   text-decoration: none;
   font-family: "Poppins", serif;
   margin: 0 !important;
-  color: #333 !important;
   
 }
 
 img{
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+button{
+  border: none;
+  outline: none;
+  font-size: 14px !important;
+  padding: 10px 14px;
+}
+
+.main-btn{
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #0056b3, #55a1e3);
+  transition:300ms ease-in-out;
+  z-index: 1000;
+  
+}
+
+.main-btn span {
+  position: relative;
+  z-index: 1; /* Ensures the text is above the overlay */
+}
+
+.main-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #187ED7, #065893ac);
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+  color: #ffffff;
+  z-index: 0; 
+}
+
+.main-btn:hover::before {
+  opacity: 1;
+}
+
+
+body{
+  color: #333 !important;
+  background-color: #E5E8EE !important;
+
 }
 
 p{
   font-size: 14px !important;
 }
-
-
-.header{
-  height: 60px;
-}
-
 
 .container2{
   width: 84%;
@@ -44,30 +85,44 @@ li, small {
 
 }
 
+/* =======NAVBAR STYLES HERE======= */
+.header{
+  height: 70px;
+}
+
+
+
+
+
+
+/* =======CARD STYLING */
+.trial{
+  color: #ffffff;
+  min-height: 170px;
+  background-color: #3E405A;
+
+}
+
+
+
+
+
+/* =======FOOTER STYLES HERE======= */
+
 input {
   border: 1px solid #ccc;
   outline: none;
 
 }
 
-form{
-}
 
 form input{
   padding: 9px 1rem;
   display: block;
   width: 100% !important;
-  font-size: 13px;
-  /* border: none; */
-  
+  font-size: 13px;  
 }
 
-
-
-button{
-  border: none;
-  outline: none;
-}
 
 form .send{
   padding: 10px;
@@ -77,10 +132,21 @@ form .send{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem !important;
-  /* gap: 2rem !important; */
+}
+
+.footer{
+  background-color: #3E405A;
+  color: #ffffff !important;
 }
 
 
+
+
+
+
+
+
+/* =======MEDIA QUERIES======= */
 @media (max-width: 767px) {
   .container2{
     width: 92%;
