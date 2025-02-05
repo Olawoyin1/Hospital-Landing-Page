@@ -7,11 +7,11 @@
   list-style-type: none !important;
   text-decoration: none !important;
   font-family: "Poppins", system-ui;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-decoration: none;
   font-family: "Poppins", serif;
   margin: 0 !important;
-  /* color: #ffffff !important; */
+  color: #333 !important;
   
 }
 
@@ -27,4 +27,85 @@ p{
 
 .header{
   height: 60px;
+}
+
+
+.container2{
+  width: 84%;
+  margin: 0 auto !important;
+}
+
+.nav-link{
+  font-size: 14px !important;
+}
+
+li, small {
+  font-size: 13px !important;
+
+}
+
+input {
+  border: 1px solid #ccc;
+  outline: none;
+
+}
+
+form{
+}
+
+form input{
+  padding: 9px 1rem;
+  display: block;
+  width: 100% !important;
+  font-size: 13px;
+  /* border: none; */
+  
+}
+
+
+
+button{
+  border: none;
+  outline: none;
+}
+
+form .send{
+  padding: 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem !important;
+  /* gap: 2rem !important; */
+}
+
+
+@media (max-width: 767px) {
+  .container2{
+    width: 92%;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1.7rem;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 1.7rem;
+  }
+
+  form{
+    border-radius: 0.8rem;
+    padding: 9px;
+    display: block;
+    max-width: 400px !important;
+  }
+
 }
