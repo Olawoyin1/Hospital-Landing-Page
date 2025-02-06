@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='main-navbar border-bottom'>
         <div className="container2">
             <nav className='d-flex header align-items-center justify-content-between'>
                 <Link to="/"><h4 className="navbar-brand fw-bolder">Mediccal.</h4></Link>

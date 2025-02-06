@@ -10,7 +10,8 @@ const Hero = () => {
                     <p className='muted'>Our medical experts are here to deliver specialized care tailored to your unique health needs, ensuring a healthier future.</p>
                 </div>
                 <div className="hero-img col-md-6">
-                    {/* <h1>hey</h1> */}
+                    <img src="../../Images/hero11.jpg" alt="" />
+                    
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import Card from '../Components/Card'
 import Hero from '../Components/Hero'
 import Intro from '../Components/Intro'
+import FAQ from '../Components/FAQ'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
     <Hero />
     <Intro />
     <Card />
+    <FAQ /> 
     <img className='medic med-home' src="../../Images/medic.png" alt="" />
     </div>
   )
