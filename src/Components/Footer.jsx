@@ -18,7 +18,7 @@ const Footer = () => {
 
                 <ul className='p-0  mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 '>
                     <h6 className='fw-bold'>Medical Care</h6>
-                    <small className='text-center text-sm-start'>Stay updated and always be in the know with the latest news and health tips.</small>
+                    <small className='text-center text-sm-start'>Get the care you deserve with our reliable, professional, and patient-focused healthcare services.</small>
                     <div className="socials d-flex align-items-center gap-3">
                         <FaXTwitter className='muted' size={20}/>
                         <FaLinkedinIn className='muted' size={20}/>
@@ -41,7 +41,7 @@ const Footer = () => {
                     <h6 className='fw-bold'>Contact Details</h6>
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlineLocationOn size={20} />
-                        <small>12, Asherifa Street Modakeke Osun State</small>
+                        <small>No 19, Olarewaju Clement street, Oke Oko Isawo, Ikorodu Lagos State</small>
                     </li>                    
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlineEmail size={14}/>

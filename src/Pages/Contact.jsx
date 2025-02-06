@@ -3,9 +3,9 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='my-4 my-md-5'>
-        <div className="text-center my-3 my-md-5">
+        <div className="text-center my-5">
             <h2 className='fw-bolder'>Make Appointment</h2>
-            <small className="muted">Lorem ipsum dolor, sit amet consectetur adipisicing.</small>
+            <small className="muted">Easy & Quick Appointments.</small>
         </div>
         <div className="container3">
             <div className="form grid3 gap-4">
@@ -84,3 +84,8 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+
+
+

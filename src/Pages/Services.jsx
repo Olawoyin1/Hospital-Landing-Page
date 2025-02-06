@@ -6,7 +6,7 @@ import FAQ from '../Components/FAQ'
 const Services = () => {
   return (
     <div>
-        <div className="faq-header text-center my-3 my-md-5">
+        <div className="faq-header text-center my-5">
             <h2 className='fw-bolder'>Our Services</h2>
             <small className="muted">Lorem ipsum dolor, sit amet consectetur adipisicing.</small>
         </div>
