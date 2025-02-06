@@ -31,9 +31,9 @@ const Footer = () => {
                 <ul className='p-0 mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 text-center'>
                     <p className='fw-bold'>Quick Links</p>
                     <li><Link className='nav-link' to='/'>Home</Link></li>                    
-                    <li><Link className='nav-link' to='/'>About Us</Link></li>                    
-                    <li><Link className='nav-link' to='/'>Services</Link></li>                    
-                    <li><Link className='nav-link' to='/'>Contact</Link></li>                    
+                    <li><Link className='nav-link' to='/about'>About Us</Link></li>                    
+                    <li><Link className='nav-link' to='/services'>Services</Link></li>                    
+                    <li><Link className='nav-link' to='/appointment'>Contact</Link></li>                    
                 </ul>
 
 
