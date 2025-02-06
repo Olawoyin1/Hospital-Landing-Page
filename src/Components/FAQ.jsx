@@ -108,7 +108,7 @@ const FAQ = () => {
 
   return (
     <motion.div 
-      className='my-4'
+      className='my-4 faqq'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
