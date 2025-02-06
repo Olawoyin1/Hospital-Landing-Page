@@ -1,8 +1,11 @@
 import React from 'react'
+import ServiceCard from '../Components/ServiceCard'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+        <ServiceCard />
+    </div>
   )
 }
 

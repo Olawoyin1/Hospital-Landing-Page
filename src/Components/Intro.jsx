@@ -23,7 +23,7 @@ const Intro = () => {
                         <h1>Welcome To</h1>
                         <h1 className='fw-bold'>Modern Clinic.</h1>
                     </div>
-                    <p style={{ whiteSpace: "pre-wrap"}}>{aboutParagraph}</p>
+                    <p className='muted' style={{ whiteSpace: "pre-wrap"}}>{aboutParagraph}</p>
                     <button className='main-btn d-inline-block'><span>More About Us</span></button>
                 </div>
             </div>

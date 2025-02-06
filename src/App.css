@@ -148,7 +148,7 @@ li, small {
 
 .med-intro{
   right: 0 !important;
-  top: 0;
+  top: 8rem;
 }
 
 .intro-img{
@@ -205,6 +205,63 @@ li, small {
 
 
 
+/* ======SERVICES STYLES====== */
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.7rem;
+}
+
+.service-card{
+  position: relative;
+  background-image: linear-gradient(40deg, #f1f1f1, #E5E8EE);
+  padding: 2rem;
+  background-color: #3E405A;
+  border-radius: 8px;
+  /* color: #ffffff; */
+  border: 1px solid #cccccc7e;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  
+}
+
+.service-card:hover{
+  color: #ffffff;
+}
+
+.service-card:hover::before {
+  opacity: 1;
+}
+
+
+
+.serv-image{
+  width: 50px;
+}
+
+
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #187ED7, #065893ac);
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+  color: #ffffff;
+  z-index: 0; 
+}
+
+.service-card > *{
+  z-index: 1;
+  position: relative;
+}
+
+
+
+
 
 /* =======FOOTER STYLES HERE======= */
 
@@ -219,13 +276,13 @@ form input{
   padding: 9px 1rem;
   display: block;
   width: 100% !important;
+  border: none;
+  border-radius: none !important;
   font-size: 13px;  
 }
 
 
-form .send{
-  padding: 10px;
-}
+
 
 .grid{
   display: grid;
@@ -237,6 +294,11 @@ form .send{
   background-color: #3E405A;
   color: #ffffff !important;
 }
+
+.footer small, .footer .nav-link{
+  opacity: 0.7;
+}
+
 
 
 
@@ -257,9 +319,16 @@ form .send{
     gap: 1.7rem;
   }
 
+  .first{
+    top: 1rem;
+    left: -1rem;
+    
+
+  }
+
   .sec{
-    top: 1.4rem;
-    left: -1.4rem;
+    top: 1rem !important;
+    left: -1rem !important;
     
   }
 }

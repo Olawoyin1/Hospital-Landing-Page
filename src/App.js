@@ -6,6 +6,7 @@ import ScrollToTop from './ScrollToTop';
 import Home from './Pages/Home.jsx';
 import SharedLayout from './Components/SharedLayout.jsx'
 import About from './Pages/About.jsx';
+import Services from './Pages/Services.jsx';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
 
           <Route path='about' element={<About />} />
+          <Route path='services' element={<Services />} />
 
         </Route>
       </Routes>

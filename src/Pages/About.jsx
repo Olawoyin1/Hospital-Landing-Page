@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "../Components/Intro";
 import { IoPlayOutline } from "react-icons/io5";
 import { FaPlay } from "react-icons/fa";
+import Card from "../Components/Card";
 
 const About = () => {
   const aboutParagraph = `At [Hospital Name], we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. \n\nYour health is our priority, and we are committed to delivering personalized care that promotes healing and well-being. Whether it's preventive screenings or specialized treatments, we are here to support you every step of the way.`;
@@ -92,6 +93,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Card />
     </div>
   );
 };

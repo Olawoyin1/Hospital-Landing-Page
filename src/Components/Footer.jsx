@@ -17,19 +17,19 @@ const Footer = () => {
             <div className="grid flex-wrap">
 
                 <ul className='p-0  mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 '>
-                    <p className='fw-bold'>Medical Care</p>
-                    <small className='text-center text-sm-start'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus iste molestiae iusto aliquam odit maxime laboriosam.</small>
+                    <h6 className='fw-bold'>Medical Care</h6>
+                    <small className='text-center text-sm-start'>Stay updated and always be in the know with the latest news and health tips.</small>
                     <div className="socials d-flex align-items-center gap-3">
-                        <FaXTwitter size={20}/>
-                        <FaLinkedinIn size={20}/>
-                        <GrInstagram size={20}/>
-                        <FaFacebookF size={20}/>
+                        <FaXTwitter className='muted' size={20}/>
+                        <FaLinkedinIn className='muted' size={20}/>
+                        <GrInstagram className='muted' size={20}/>
+                        <FaFacebookF className='muted' size={20}/>
                     </div>
                 </ul>
 
 
                 <ul className='p-0 mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 text-center'>
-                    <p className='fw-bold'>Quick Links</p>
+                    <h6 className='fw-bold'>Quick Links</h6>
                     <li><Link className='nav-link' to='/'>Home</Link></li>                    
                     <li><Link className='nav-link' to='/about'>About Us</Link></li>                    
                     <li><Link className='nav-link' to='/services'>Services</Link></li>                    
@@ -38,7 +38,7 @@ const Footer = () => {
 
 
                 <ul className='p-0 mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3  text-center text-sm-start'>
-                    <p className='fw-bold'>Contact Details</p>
+                    <h6 className='fw-bold'>Contact Details</h6>
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlineLocationOn size={20} />
                         <small>12, Asherifa Street Modakeke Osun State</small>
@@ -59,7 +59,7 @@ const Footer = () => {
 
 
                 <ul className='p-0 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 text-center text-sm-start mt-5 mt-sm-4'>
-                    <p className='fw-bold'>Subscribe To Our Newsletter</p>
+                    <h6 className='fw-bold'>Subscribe To Our Newsletter</h6>
                     <small>Stay updated and always be in the know with the latest news and health tips.</small>                   
                     <form action="" className='d-flex footer-form'>
                         <input type="text" placeholder='Your Email..' />
