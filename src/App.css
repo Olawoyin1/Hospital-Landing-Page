@@ -28,6 +28,11 @@ img{
   max-width: 100%;
 }
 
+.page-intro{
+  height: 140px;
+  background-color: #495458;
+}
+
 button{
   border: none;
   outline: none;
@@ -251,10 +256,15 @@ li, small {
 .trial{
   color: #ffffff;
   min-height: 170px;
-  background-color: #3E405A;
+  background-color: #495458;
 
 }
 
+
+.card-text{
+  max-width: 400px !important;
+  /* color: red; */
+}
 
 
 

@@ -3,11 +3,14 @@ import Intro from "../Components/Intro";
 import { IoPlayOutline } from "react-icons/io5";
 import { FaPlay } from "react-icons/fa";
 import Card from "../Components/Card";
+import FAQ from "../Components/FAQ";
+import PageIntro from "../Components/PageIntro";
 
 const About = () => {
-  const aboutParagraph = `At [Hospital Name], we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. \n\nYour health is our priority, and we are committed to delivering personalized care that promotes healing and well-being. Whether it's preventive screenings or specialized treatments, we are here to support you every step of the way.`;
+  const aboutParagraph = `At Modern Clinic, we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. \n\nYour health is our priority, and we are committed to delivering personalized care that promotes healing and well-being. Whether it's preventive screenings or specialized treatments, we are here to support you every step of the way.`;
   return (
     <div className="">
+        
       <div className="container2">
 
         <div className="d-flex flex-column flex-md-row align-items-center gap-3 ">
@@ -95,6 +98,7 @@ const About = () => {
       </div>
 
       <Card />
+      <FAQ />
     </div>
   );
 };

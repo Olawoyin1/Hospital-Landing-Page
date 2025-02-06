@@ -11,7 +11,7 @@ const Home = () => {
     <Intro />
     <Card />
     <FAQ /> 
-    <img className='medic med-home' src="../../Images/medic.png" alt="" />
+    <img className='medic d-none d-md-block med-home' src="../../Images/medic.png" alt="" />
     </div>
   )
 }

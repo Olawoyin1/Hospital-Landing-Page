@@ -49,7 +49,7 @@ const Footer = () => {
                     </li>                    
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlinePhone size={14}/>
-                        <small>09023433901</small>
+                        <small>08168028145</small>
                     </li>                    
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <FiClock size={14}/>

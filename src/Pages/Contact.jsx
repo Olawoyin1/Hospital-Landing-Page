@@ -3,10 +3,13 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='my-4 my-md-5'>
+        <div className="text-center my-3 my-md-5">
+            <h2 className='fw-bolder'>Make Appointment</h2>
+            <small className="muted">Lorem ipsum dolor, sit amet consectetur adipisicing.</small>
+        </div>
         <div className="container3">
             <div className="form grid3 gap-4">
-                <form action="" className=' d-flex flex-column align-items-start gap-2 p-3'>
-                    <h4 className='fw-bold'>Make Appointment</h4>
+                <form action="" className=' d-flex flex-column align-items-start gap-2 p-4'>
                     <div className="grid4 w-100 gap-md-2 gap-3">
                         <div className="input-field">
                             <input type="text" placeholder='Firstname' />
@@ -45,7 +48,7 @@ const Contact = () => {
 
                         <div className='d-flex flex-column gap-1'>
                             <small className="muted">Online 24/7</small>
-                            <small className="muted">08123448990</small>
+                            <small className="muted">08168028145 </small>
                         </div>
                         
                     </div>
@@ -65,10 +68,11 @@ const Contact = () => {
                         <div className="fw-bold">
                             <p>Email & Fax</p>
                         </div>
+                        
 
                         <div className='d-flex flex-column gap-1'>
-                            <small className="muted">Email: yustee2017@gmail.com</small>
-                            <small className="muted">Fax: 08123448990</small>
+                            <small className="muted">Email: medicalcare@gmail.com</small>
+                            <small className="muted">Fax: 08168028145 </small>
                         </div>
                         
                     </div>
