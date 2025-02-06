@@ -5,11 +5,12 @@ import Intro from '../Components/Intro'
 
 const Home = () => {
   return (
-    <>
+    <div className='home'>
     <Hero />
     <Intro />
     <Card />
-    </>
+    <img className='medic med-home' src="../../Images/medic.png" alt="" />
+    </div>
   )
 }
 

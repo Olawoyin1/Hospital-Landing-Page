@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import ScrollToTop from './ScrollToTop';
 import Home from './Pages/Home.jsx';
 import SharedLayout from './Components/SharedLayout.jsx'
+import About from './Pages/About.jsx';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<Home />} />
 
+          <Route path='about' element={<About />} />
 
         </Route>
       </Routes>
