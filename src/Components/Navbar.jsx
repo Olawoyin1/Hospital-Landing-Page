@@ -6,9 +6,9 @@ const Navbar = () => {
     <div>
         <div className="container2">
             <nav className='d-flex header align-items-center justify-content-between'>
-                <h4 className="navbar-brand">Mediccal.</h4>
+                <h4 className="navbar-brand fw-bolder">Mediccal.</h4>
 
-                <ul className="p-0 d-flex gap-3 align-items-center">
+                <ul className="p-0 d-none d-md-flex gap-3 align-items-center">
                     <li><Link className='nav-link' to="/">Home</Link></li>
                     <li><Link className='nav-link' to="/">Services</Link></li>
                     <li><Link className='nav-link' to="/">About Us</Link></li>

@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from '../Components/Card'
+import Hero from '../Components/Hero'
+import Intro from '../Components/Intro'
 
 const Home = () => {
   return (
     <>
-    <div className='container2'>
-        <h1>HELLO FROM Homepage</h1>
-    </div>
+    <Hero />
+    <Intro />
     <Card />
     </>
   )

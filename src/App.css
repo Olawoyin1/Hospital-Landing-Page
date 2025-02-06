@@ -94,6 +94,51 @@ li, small {
 
 
 
+/* =======HERO STYLES======== */
+.hero{
+  min-height: 400px;
+}
+
+
+
+
+/* =====INTRO STYLES======== */
+.introo{
+  overflow: auto;
+}
+
+
+.intro-img{
+  position: relative;
+}
+
+.intro-card{
+  position: relative;
+  /* width: 400px; */
+  overflow: hidden;
+  object-fit: contain;
+  /* border-radius: 10px; */
+  z-index: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro-bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3e405a50;
+  top: 1.4rem;
+  z-index: -1;
+  left: -1.4rem;
+  /* border-radius: 10px; */
+}
+
+.intro-card img{
+  width: 100%;
+}
+
+
+
 
 /* =======CARD STYLING */
 .trial{
