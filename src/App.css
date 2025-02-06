@@ -115,7 +115,7 @@ button{
 body{
   color: #333 !important;
   background-color: #E5E8EE !important;
-
+  overflow: hidden !important;
 }
 
 p{
