@@ -1,72 +1,73 @@
 import React from "react";
-import { LuHeartPulse } from "react-icons/lu";
 import { motion } from "framer-motion";
 
 const services = [
-  {
-    id: 1,
-    image: "../../Images/heart.png",
-    name: "Hearth Surgery",
-    icon: `<LuHeartPulse />`,
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 2,
-    image: "../../Images/blood.png",
-    name: "Blood Testing",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 3,
-    image: "../../Images/dna.png",
-    name: "DNA Testing",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 4,
-    image: "../../Images/witness.png",
-    name: "Eye Treatment",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 7,
-    image: "../../Images/tooth.png",
-    name: "Dental Care",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 8,
-    image: "../../Images/ambulance.png",
-    name: "Emergency Services",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 8,
-    image: "../../Images/pills.png",
-    name: "Pharmacy Services",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 8,
-    image: "../../Images/stethoscope.png",
-    name: "Outdoor Checkup",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-  {
-    id: 8,
-    image: "../../Images/protection.png",
-    name: "Critical Care",
-    icon: "icon-smartphone",
-    desc: "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store",
-  },
-];
+    {
+      id: 1,
+      image: "../../Images/heart.png",
+      name: "Heart Surgery",
+      icon: `<LuHeartPulse />`,
+      desc: "We provide advanced cardiac surgery, including bypass surgery and valve replacement, to ensure better heart health and improved quality of life.",
+    },
+    {
+      id: 2,
+      image: "../../Images/blood.png",
+      name: "Blood Testing",
+      icon: "icon-blood-test",
+      desc: "Our comprehensive blood tests help diagnose diseases, monitor health conditions, and assess overall wellness with fast and accurate results.",
+    },
+    {
+      id: 3,
+      image: "../../Images/dna.png",
+      name: "DNA Testing",
+      icon: "icon-dna",
+      desc: "We offer precise genetic testing to identify hereditary conditions, determine ancestry, and provide personalized medical insights.",
+    },
+    {
+      id: 4,
+      image: "../../Images/witness.png",
+      name: "Eye Treatment",
+      icon: "icon-eye-care",
+      desc: "From vision correction to cataract surgery, our ophthalmologists provide expert care to protect and restore your eyesight.",
+    },
+    {
+      id: 5,
+      image: "../../Images/tooth.png",
+      name: "Dental Care",
+      icon: "icon-dental-care",
+      desc: "Our dental specialists offer routine checkups, teeth cleaning, braces, and other treatments to keep your smile healthy and bright.",
+    },
+    {
+      id: 6,
+      image: "../../Images/ambulance.png",
+      name: "Emergency Services",
+      icon: "icon-ambulance",
+      desc: "Our 24/7 emergency care unit is equipped to handle critical cases with rapid response and expert medical attention.",
+    },
+    {
+      id: 7,
+      image: "../../Images/pills.png",
+      name: "Pharmacy Services",
+      icon: "icon-pharmacy",
+      desc: "Our in-house pharmacy ensures you get prescribed medications promptly with expert advice on safe and effective usage.",
+    },
+    {
+      id: 8,
+      image: "../../Images/stethoscope.png",
+      name: "Outdoor Checkup",
+      icon: "icon-checkup",
+      desc: "We provide home visits and mobile checkups for patients who require medical attention but cannot visit the hospital.",
+    },
+    {
+      id: 9,
+      image: "../../Images/protection.png",
+      name: "Critical Care",
+      icon: "icon-intensive-care",
+      desc: "Our intensive care unit (ICU) offers life-saving treatments for patients with severe or life-threatening medical conditions.",
+    },
+  ];
+  
+  
 
 const ServiceCard = () => {
   return (

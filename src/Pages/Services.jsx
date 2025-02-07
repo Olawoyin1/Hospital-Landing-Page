@@ -8,7 +8,7 @@ const Services = () => {
     <div>
         <div className="faq-header text-center my-5">
             <h2 className='fw-bolder'>Our Services</h2>
-            <small className="muted">Lorem ipsum dolor, sit amet consectetur adipisicing.</small>
+            <small className="muted">Comprehensive, expert care for your health needs.</small>
         </div>
         <ServiceCard />
         <Card />
