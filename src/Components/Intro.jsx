@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
 
-    const aboutParagraph = `At Modern Clinic, we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. \n\nYour health is our priority, and we are committed to delivering personalized care that promotes healing and well-being. Whether it's preventive screenings or specialized treatments, we are here to support you every step of the way.`
+    const aboutParagraph = `At Biomej Healthcare Ltd, we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. \n\nYour health is our priority, and we are committed to delivering personalized care that promotes healing and well-being. Whether it's preventive screenings or specialized treatments, we are here to support you every step of the way.`
 
 
   return (
@@ -21,7 +21,7 @@ const Intro = () => {
                 <div className="intro-content d-flex flex-column  align-items-start justify-content-center gap-3">
                     <div className='d-flex flex-column'>
                         <h1>Welcome To</h1>
-                        <h1 className='fw-bold'>Modern Clinic.</h1>
+                        <h1 className='fw-bold'>Biomej Healthcare Ltd.</h1>
                     </div>
                     <p className='muted' style={{ whiteSpace: "pre-wrap"}}>{aboutParagraph}</p>
                     <button className='main-btn d-inline-block'><span>More About Us</span></button>

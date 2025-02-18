@@ -5,7 +5,7 @@ import FAQ from '../Components/FAQ'
 
 const Services = () => {
   return (
-    <div>
+    <div className='our-services py-4'>
         <div className="faq-header text-center my-5">
             <h2 className='fw-bolder'>Our Services</h2>
             <small className="muted">Comprehensive, expert care for your health needs.</small>

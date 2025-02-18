@@ -118,11 +118,11 @@ import Card from "../Components/Card";
 import FAQ from "../Components/FAQ";
 
 // Updated meaningful content for sections
-const aboutParagraph = `At Modern Clinic, we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. Your health is our priority, and we are committed to delivering personalized care that promotes healing and well-being.`;
+const aboutParagraph = `At Biomej Healthcare Ltd, we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. Your health is our priority, and we are committed to delivering personalized care that promotes healing and well-being.`;
 
-const whoWeAreText = `Modern Clinic is a leader in healthcare, offering a broad range of services from preventive care to specialized treatments. We believe in the power of patient-centered care, providing not only medical expertise but also emotional support and guidance throughout your treatment journey.`;
+const whoWeAreText = `Biomej Healthcare Ltd is a leader in healthcare, offering a broad range of services from preventive care to specialized treatments. We believe in the power of patient-centered care, providing not only medical expertise but also emotional support and guidance throughout your treatment journey.`;
 
-const whyPatientsChooseUsText = `Patients choose Modern Clinic because of our commitment to providing personalized care. Our team is dedicated to understanding each patient's unique needs and ensuring they feel supported every step of the way. With advanced technology and compassionate professionals, we deliver the best outcomes for our patients.`;
+const whyPatientsChooseUsText = `Patients choose Biomej Healthcare Ltd because of our commitment to providing personalized care. Our team is dedicated to understanding each patient's unique needs and ensuring they feel supported every step of the way. With advanced technology and compassionate professionals, we deliver the best outcomes for our patients.`;
 
 // Animations
 const fadeSlideIn = {
@@ -151,7 +151,7 @@ const containerVariants = {
 
 const About = () => {
   return (
-    <div>
+    <div className="about-us py-4">
       <div className="container2">
         {/* Section 1: Welcome to Modern Clinic */}
         <motion.div
@@ -175,7 +175,7 @@ const About = () => {
           >
             <div className="d-flex flex-column">
               <h1>Welcome To</h1>
-              <h1 className="fw-bold">Modern Clinic.</h1>
+              <h1 className="fw-bold">Biomej Healthcare Ltd.</h1>
             </div>
             <p className="muted" style={{ whiteSpace: "pre-wrap" }}>
               {aboutParagraph}

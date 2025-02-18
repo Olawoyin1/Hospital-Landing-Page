@@ -61,7 +61,7 @@ const Hero = () => {
   }
 
   return (
-    <div>
+    <div className='mt-5'>
       <div className="container2">
         <motion.div
           className="hero d-flex flex-md-row gap-4 gap-md-1 flex-column-reverse"
