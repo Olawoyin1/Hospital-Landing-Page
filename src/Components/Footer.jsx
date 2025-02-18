@@ -41,15 +41,15 @@ const Footer = () => {
                     <h6 className='fw-bold'>Contact Details</h6>
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlineLocationOn size={20} />
-                        <small>No 19, Olarewaju Clement street, Oke Oko Isawo, Ikorodu Lagos State</small>
+                        <small>7/9 Oriola street, Alapere, Ketu</small>
                     </li>                    
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlineEmail size={14}/>
-                        <small>medicalcare@gmail.com</small>
+                        <small>Donameje@gmail.com</small>
                     </li>                    
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlinePhone size={14}/>
-                        <small>08168028145</small>
+                        <small className="fw-bolder lead"> +(234) 8035782355</small>
                     </li>                    
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <FiClock size={14}/>

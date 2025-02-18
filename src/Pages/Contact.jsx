@@ -203,9 +203,9 @@ const Contact = () => {
           {/* Contact Info Section */}
           <div className="hos-info d-flex flex-column justify-content-between gap-3">
             {[
-              { title: "Emergency Contact", text: ["Online 24/7", "08168028145"] },
-              { title: "Our Address", text: ["No 19, Olarewaju Clement street, Oke Oko Isawo, Ikorodu Lagos State"] },
-              { title: "Email & Fax", text: ["Email: medicalcare@gmail.com", "Fax: 08168028145"] }
+              { title: "Emergency Contact", text: ["Online 24/7", "08035782355"] },
+              { title: "Our Address", text: ["7/9 Oriola street, Alapere, Ketu"] },
+              { title: "Email & Fax", text: ["Email: Donameje@gmail.com", "Fax: 08035782355"] }
             ].map((item, index) => (
               <motion.div 
                 key={index} 
