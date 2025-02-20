@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="grid flex-wrap">
 
                 <ul className='p-0  mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 '>
-                    <h6 className='fw-bold'>Medical Care</h6>
+                    <h6 className='fw-bold mb-3'>Biomej Healthcare Ltd.</h6>
                     <small className='text-center text-sm-start'>Get the care you deserve with our reliable, professional, and patient-focused healthcare services.</small>
                     <div className="socials d-flex align-items-center gap-3">
                         <FaXTwitter className='muted' size={20}/>
@@ -29,7 +29,7 @@ const Footer = () => {
 
 
                 <ul className='p-0 mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 text-center'>
-                    <h6 className='fw-bold'>Quick Links</h6>
+                    <h6 className='fw-bold mb-3'>Quick Links</h6>
                     <li><Link className='nav-link' to='/'>Home</Link></li>                    
                     <li><Link className='nav-link' to='/about'>About Us</Link></li>                    
                     <li><Link className='nav-link' to='/services'>Services</Link></li>                    
@@ -38,7 +38,7 @@ const Footer = () => {
 
 
                 <ul className='p-0 mt-5 mt-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3  text-center text-sm-start'>
-                    <h6 className='fw-bold'>Contact Details</h6>
+                    <h6 className='fw-bold mb-3'>Contact Details</h6>
                     <li className='d-flex flex-sm-row flex-column align-items-center gap-2'>
                         <MdOutlineLocationOn size={20} />
                         <small>7/9 Oriola street, Alapere, Ketu</small>
@@ -59,7 +59,7 @@ const Footer = () => {
 
 
                 <ul className='p-0 d-flex align-items-center justify-content-center justify-content-sm-start align-items-sm-start flex-column gap-3 text-center text-sm-start mt-5 mt-sm-4'>
-                    <h6 className='fw-bold'>Subscribe To Our Newsletter</h6>
+                    <h6 className='fw-bold mb-3'>Subscribe To Our Newsletter</h6>
                     <small>Stay updated and always be in the know with the latest news and health tips.</small>                   
                     <form action="" className='d-flex footer-form'>
                         <input type="text" placeholder='Your Email..' />

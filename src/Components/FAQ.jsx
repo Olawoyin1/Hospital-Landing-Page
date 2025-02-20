@@ -78,26 +78,32 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 
 const faqs = [
   { 
-    question: "What services does your hospital provide?", 
-    answer: "We offer general consultations, emergency care, surgery, maternity services, diagnostics, and specialized treatments." 
+    question: "What products do you offer?", 
+    answer: "We provide prescription and over-the-counter medications, supplements, personal care items, and medical equipment." 
+  },
+  { 
+    question: "Can I order medications online?", 
+    answer: "Yes! You can place orders through our website, and we offer fast and reliable home delivery services." 
   },
   { 
     question: "Do you accept health insurance?", 
-    answer: "Yes, we accept most major health insurance plans. Contact us to confirm if your provider is covered." 
+    answer: "Yes, we accept most major health insurance plans for prescription medications. Contact us to verify your provider." 
   },
   { 
-    question: "What are your hospital’s visiting hours?", 
-    answer: "Our visiting hours are from 9:00 AM to 8:00 PM daily, with special ICU restrictions for patient safety." 
+    question: "Do I need a prescription for all medications?", 
+    answer: "Some medications require a valid prescription, while others are available over-the-counter. Check with our pharmacists for more details." 
   },
   { 
-    question: "Can I book an appointment online?", 
-    answer: "Yes, you can schedule an appointment through our website or by calling our front desk." 
+    question: "Can I consult a pharmacist online?", 
+    answer: "Yes! Our licensed pharmacists are available for virtual consultations to answer your medication-related questions." 
   },
   { 
-    question: "Do you have emergency services?", 
-    answer: "Absolutely! Our emergency department is open 24/7, equipped to handle critical medical situations." 
-  }
+    question: "What are your operating hours?", 
+    answer: "Our pharmacy is open from 4:00 AM to 10:00 PM daily. Online orders can be placed 24/7." 
+  },
 ];
+
+
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -108,7 +114,7 @@ const FAQ = () => {
 
   return (
     <motion.div 
-      className='my-4 faqq'
+      className='my-4 mb-5 faqq'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}

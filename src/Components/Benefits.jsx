@@ -1,31 +1,52 @@
 import React from "react";
-import { LuHeartPulse } from "react-icons/lu";
 import { motion } from "framer-motion";
 
 const benefits = [
   {
     id: 1,
-    image: "../../Images/heart.png",
-    name: " Expert Medical Care",
-    icon: `<LuHeartPulse />`,
-    desc: "Our team of highly trained doctors, nurses, and specialists provide top-quality healthcare for all your medical needs.",
+    image: "../../Images/delivery.png",
+    name: "Convenient Online Ordering & Delivery",
+    icon: `<LuTruck />`,
+    desc: "Order medications from the comfort of your home with fast and reliable delivery services.",
   },
   {
     id: 2,
-    image: "../../Images/protection.png",
-    name: "Affordable Healthcare Plans",
-    icon: "icon-smartphone",
-    desc: "We provide cost-effective treatment options and insurance coverage to make healthcare accessible to all.",
+    image: "../../Images/consultation.png",
+    name: "Expert Pharmacist Consultation",
+    icon: `<LuUserCheck />`,
+    desc: "Get professional advice on prescriptions, dosages, and health concerns from licensed pharmacists.",
   },
   {
     id: 3,
-    image: "../../Images/pills.png",
-    name: "Pharmacy Services",
-    icon: "icon-smartphone",
-    desc: "Our in-house pharmacy ensures that you receive prescribed medications quickly and conveniently.",
+    image: "../../Images/discount.png",
+    name: "Affordable Pricing & Discounts",
+    icon: `<LuBadgePercent />`,
+    desc: "Enjoy competitive pricing, discounts on bulk purchases, and special offers for loyal customers.",
   },
- 
+  {
+    id: 4,
+    image: "../../Images/medicine.png",
+    name: "Wide Range of Medications",
+    icon: `<LuPill />`,
+    desc: "Access a comprehensive selection of prescription and over-the-counter medications, supplements, and wellness products.",
+  },
+  {
+    id: 5,
+    image: "../../Images/support.png",
+    name: "24/7 Customer Support",
+    icon: `<LuHeadphones />`,
+    desc: "Get assistance anytime with round-the-clock customer service and emergency medication support.",
+  },
+  {
+    id: 6,
+    image: "../../Images/prescription.png",
+    name: "Easy Prescription Management",
+    icon: `<LuClipboardCheck />`,
+    desc: "Refill prescriptions easily, track medication history, and receive reminders for refills through our user-friendly platform.",
+  },
 ];
+
+
 
 const Benefits = () => {
   return (

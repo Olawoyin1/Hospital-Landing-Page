@@ -118,7 +118,9 @@ import Card from "../Components/Card";
 import FAQ from "../Components/FAQ";
 
 // Updated meaningful content for sections
-const aboutParagraph = `At Biomej Healthcare Ltd, we provide advanced medical care tailored to your unique needs. With a team of skilled professionals and cutting-edge technology, we ensure high-quality treatment in a compassionate environment. Your health is our priority, and we are committed to delivering personalized care that promotes healing and well-being.`;
+const aboutParagraph = `At Biomej Pharmacy, we are committed to providing top-quality pharmaceutical care designed to meet your unique health needs. With a team of experienced pharmacists and healthcare professionals, we offer a comprehensive range of prescription and over-the-counter medications, health and wellness products, and expert consultations. Our goal is to ensure that you receive the right medications with the right guidance, helping you make informed decisions about your health.
+
+Beyond dispensing medications, we prioritize your well-being through personalized services such as prescription refills, medication counseling, health screenings, and vaccination programs. Whether you need expert advice, home delivery, or essential medical supplies, we are here to support you every step of the way. At Biomej Pharmacy, your health is our priority, and we are dedicated to providing safe, reliable, and compassionate care for you and your family.`;
 
 const whoWeAreText = `Biomej Healthcare Ltd is a leader in healthcare, offering a broad range of services from preventive care to specialized treatments. We believe in the power of patient-centered care, providing not only medical expertise but also emotional support and guidance throughout your treatment journey.`;
 
