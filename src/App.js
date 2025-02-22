@@ -9,12 +9,14 @@ import About from './Pages/About.jsx';
 import Services from './Pages/Services.jsx';
 import Contact from './Pages/Contact.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
+import { HelmetProvider } from "react-helmet-async";
 
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <HelmetProvider>
       <Routes>
 
         <Route path='/' element={<SharedLayout />}>
@@ -29,6 +31,7 @@ function App() {
 
         </Route>
       </Routes>
+      </HelmetProvider>
     </Router>
   );
 }

@@ -116,6 +116,7 @@ import { motion } from "framer-motion";
 import { FaPlay } from "react-icons/fa";
 import Card from "../Components/Card";
 import FAQ from "../Components/FAQ";
+import SEO from "../Components/SEO";
 
 // Updated meaningful content for sections
 const aboutParagraph = `At Biomej Pharmacy, we are committed to providing top-quality pharmaceutical care designed to meet your unique health needs. With a team of experienced pharmacists and healthcare professionals, we offer a comprehensive range of prescription and over-the-counter medications, health and wellness products, and expert consultations. Our goal is to ensure that you receive the right medications with the right guidance, helping you make informed decisions about your health.
@@ -154,6 +155,12 @@ const containerVariants = {
 const About = () => {
   return (
     <div className="about-us py-4">
+      <SEO 
+        title="Biomej Healthcare | Trusted Pharmacy in Lagos" 
+        description="Get high-quality medications and healthcare services at Biomej Healthcare, your trusted pharmacy in Lagos." 
+        keywords="pharmacy, healthcare, medications, Lagos, prescription drugs" 
+        url="https://biomejhealthcare.com"
+      />
       <div className="container2">
         {/* Section 1: Welcome to Modern Clinic */}
         <motion.div

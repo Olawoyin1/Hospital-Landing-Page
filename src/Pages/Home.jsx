@@ -4,10 +4,17 @@ import Hero from '../Components/Hero'
 import Intro from '../Components/Intro'
 import FAQ from '../Components/FAQ'
 import Benefits from '../Components/Benefits'
+import SEO from '../Components/SEO'
 
 const Home = () => {
   return (
     <div className='home'>
+      <SEO 
+        title="Biomej Healthcare | Trusted Pharmacy in Lagos" 
+        description="Get high-quality medications and healthcare services at Biomej Healthcare, your trusted pharmacy in Lagos." 
+        keywords="pharmacy, healthcare, medications, Lagos, prescription drugs" 
+        url="https://biomejhealthcare.com"
+      />
     <Hero />
     <Intro />
     <Card />

@@ -49,7 +49,7 @@ const Navbar = () => {
   };
 
   window.addEventListener("scroll", ()=>{
-    if(window.scrollY > 40){
+    if(window.scrollY > 30){
       SetScroll(true)
     }else{
       SetScroll(false)
