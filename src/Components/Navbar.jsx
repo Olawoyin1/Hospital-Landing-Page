@@ -42,13 +42,23 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scroll, SetScroll] = React.useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  window.addEventListener("scroll", ()=>{
+    if(window.scrollY > 40){
+      SetScroll(true)
+    }else{
+      SetScroll(false)
+    }
+    
+  })
+
   return (
-    <div className='main-navbar border-bottom'>
+    <div className={scroll ? "main-navbar scrolled" : "main-navbar"}>
         <div className="container2">
             <nav className='d-flex header align-items-center justify-content-between'>
                 {/* Logo */}

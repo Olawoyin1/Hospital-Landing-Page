@@ -147,9 +147,14 @@ li, small {
 }
 
 .main-navbar{
-  background: linear-gradient(135deg, #EDF0F4, #DEE1E5);
+  background-color: transparent !important;
 }
 
+.main-navbar.scrolled{
+  background: linear-gradient(135deg, #EDF0F4, #DEE1E5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
 
 .main-navbar .nav-link{
   font-weight: 600;
@@ -164,7 +169,6 @@ li, small {
   right: 0;
   z-index: 9999;
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container2 {
@@ -411,6 +415,17 @@ li, small {
   z-index: 1;
   position: relative;
 }
+
+
+
+
+
+/* ERROR STYLE */
+.error{
+  min-height: 80vh;
+
+}
+
 
 
 /* ======CONTACT US STYLES======= */

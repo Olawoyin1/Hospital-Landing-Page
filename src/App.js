@@ -8,6 +8,7 @@ import SharedLayout from './Components/SharedLayout.jsx'
 import About from './Pages/About.jsx';
 import Services from './Pages/Services.jsx';
 import Contact from './Pages/Contact.jsx';
+import ErrorPage from './Pages/ErrorPage.jsx';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
           <Route path='services' element={<Services />} />
 
           <Route path='appointment' element={<Contact />} />
+
+          <Route path="*" element={<ErrorPage />} />
 
         </Route>
       </Routes>

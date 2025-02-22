@@ -15,7 +15,7 @@ Beyond dispensing medications, we prioritize your well-being through personalize
                     <div className="intro-img">
                         <div className="intro-card">
                     
-                            <img src="../../Images/1.jpg" alt="" />
+                            <img src="../../Images/rx4.jpg" alt="" />
                         </div>
                         <div className="intro-bg first"></div>
                     </div>

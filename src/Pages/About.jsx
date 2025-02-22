@@ -166,7 +166,7 @@ const About = () => {
           <motion.div className="p-5 col col-md-5" variants={fadeSlideIn}>
             <div className="intro-img">
               <div className="intro-card">
-                <img src="../../Images/1.jpg" alt="" />
+                <img src="../../Images/rx4.jpg" alt="" />
               </div>
               <div className="intro-bg first"></div>
             </div>
@@ -213,7 +213,7 @@ const About = () => {
           <motion.div className="p-5 col col-md-5" variants={fadeUp}>
             <div className="intro-img">
               <div className="intro-card">
-                <img src="../../Images/2.jpg" alt="" />
+                <img src="../../Images/rx2.jpeg" alt="" />
               </div>
               <div className="intro-bg sec"></div>
             </div>
@@ -234,7 +234,7 @@ const About = () => {
           >
             <div className="intro-img">
               <div className="intro-card">
-                <img src="../../Images/7.jpg" alt="" />
+                <img src="../../Images/rx1.jpeg" alt="" />
               </div>
               <div className="intro-bg first"></div>
             </div>
