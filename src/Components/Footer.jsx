@@ -33,6 +33,7 @@ const Footer = () => {
                     <li><Link className='nav-link' to='/'>Home</Link></li>                    
                     <li><Link className='nav-link' to='/about'>About Us</Link></li>                    
                     <li><Link className='nav-link' to='/services'>Services</Link></li>                    
+                    <li><Link className='nav-link' to='/vaccination'>Vaccination</Link></li>                    
                     <li><Link className='nav-link' to='/appointment'>Contact</Link></li>                    
                 </ul>
 

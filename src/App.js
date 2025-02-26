@@ -8,8 +8,10 @@ import SharedLayout from './Components/SharedLayout.jsx'
 import About from './Pages/About.jsx';
 import Services from './Pages/Services.jsx';
 import Contact from './Pages/Contact.jsx';
+import Vaccination from './Pages/Vaccination.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
 import { HelmetProvider } from "react-helmet-async";
+
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path='services' element={<Services />} />
 
           <Route path='appointment' element={<Contact />} />
+
+          <Route path='vaccination' element={<Vaccination />} />
 
           <Route path="*" element={<ErrorPage />} />
 

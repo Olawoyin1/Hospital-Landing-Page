@@ -23,6 +23,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const Card = () => {
   // Animation for the card container (fade in and slide up)
@@ -65,12 +66,14 @@ const Card = () => {
           </div>
 
           {/* Button with bounce effect */}
+          <Link to="/appointment">
           <motion.button 
             className="main-btn"
             variants={bounceButton} // Apply bounce animation to the button
           >
             <span>Contact Us</span>
           </motion.button>
+          </Link>
         </motion.div>
       </div>
     </div>

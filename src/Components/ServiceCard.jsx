@@ -73,7 +73,7 @@ const services = [
 const ServiceCard = () => {
   return (
     <div className="container2 mt-4">
-      <div className="mt-4">
+      <div className="">
 
         <div className="services-contents grid1 my-5">
           {services.map((item, index) => (

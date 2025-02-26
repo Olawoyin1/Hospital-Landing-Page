@@ -119,7 +119,7 @@ const Contact = () => {
   });
 
   return (
-    <div className="my-4 contact-us py-4 my-md-5">
+    <div className="contact-us pb-5">
       <div className="text-center my-5">
         <motion.h2
           className="fw-bolder"

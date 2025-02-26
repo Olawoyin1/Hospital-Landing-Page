@@ -5,6 +5,7 @@ import Intro from '../Components/Intro'
 import FAQ from '../Components/FAQ'
 import Benefits from '../Components/Benefits'
 import SEO from '../Components/SEO'
+import Features from '../Components/Features'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         url="https://biomejhealthcare.com"
       />
     <Hero />
+    <Features />
     <Intro />
     <Card />
     <FAQ /> 

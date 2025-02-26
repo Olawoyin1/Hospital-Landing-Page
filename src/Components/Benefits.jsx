@@ -50,8 +50,8 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <div className="container2 mt-4">
-      <div className="mt-4">
+    <div className="container2">
+      <div>
 
         <motion.div 
                   className="faq-header text-center my-3 my-md-5"

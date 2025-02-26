@@ -130,6 +130,7 @@ p{
 .container3{
   margin: 0 auto !important;
   width: 70%;
+  /* min-height: 400px; */
 }
 
 .nav-link{
@@ -171,11 +172,11 @@ li, small {
   background-color: white;
 }
 
-.container2 {
+/* .container2 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
 .navbar-brand {
   font-size: 1.5rem;
@@ -242,12 +243,37 @@ li, small {
   }
 }
 
-.our-services,.hero, .about-us, .contact-us{
-  top: 30px;
-  position: relative;
+.our-services,.hero-main, .about-us, .contact-us, .vaccination{
+  margin-top: 70px !important;
 
 }
 
+
+/* ========VACCINATION STYLES ======== */
+.v-cover{
+  background-image: url('../public/Images/new4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  background-color: #838282;
+  background-blend-mode: multiply;
+}
+
+.client{
+  background-image: linear-gradient(40deg, #f1f1f1, #E5E8EE) !important;
+  border: 1px solid #cccccc7e;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.card-img-top{
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img-top img{
+  object-fit: contain;
+}
 
 /* =======HERO STYLES======== */
 .hero{
@@ -547,6 +573,21 @@ input {
   opacity: 0.7;
 }
 
+
+
+/* ======FEATURES STYLES ======= */
+.f-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+.f-card{
+  background-color: #aeacac;
+
+  height: 330px;
+  background-blend-mode: multiply;
+}
 
 
 
