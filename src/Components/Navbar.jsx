@@ -71,7 +71,7 @@ const Navbar = () => {
                     <li><Link className='nav-link' to="/">Home</Link></li>
                     <li><Link className='nav-link' to="/services">Services</Link></li>
                     <li><Link className='nav-link' to="/about">About Us</Link></li>
-                    <li><Link className='nav-link' to="/appointment">Contact</Link></li>
+                    <li><Link className='nav-link' to="/vaccination">Vaccination</Link></li>
                 </ul>
 
                 {/* Desktop Appointment Button */}
@@ -100,7 +100,6 @@ const Navbar = () => {
                         <li><Link className='nav-link'onClick={toggleMenu} to="/services">Services</Link></li>
                         <li><Link className='nav-link'onClick={toggleMenu} to="/about">About Us</Link></li>
                         <li><Link className='nav-link'onClick={toggleMenu} to="/vaccination">Vaccination</Link></li>
-                        <li><Link className='nav-link'onClick={toggleMenu} to="/appointment">Contact</Link></li>
                     </ul>
                     <Link to='/appointment' onClick={toggleMenu} className='d-md-none'>
                         <button className='main-btn'>

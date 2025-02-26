@@ -243,9 +243,17 @@ li, small {
   }
 }
 
-.our-services,.hero-main, .about-us, .contact-us, .vaccination{
+.our-services,.hero-main, .about-us, .contact-us,.mm, .vaccination{
   margin-top: 70px !important;
 
+}
+
+
+
+/* --========LAB TEST STYLES ======== */
+.test-card{
+  background-color: #0056b3 !important;
+  min-height: 490px;
 }
 
 
@@ -261,6 +269,7 @@ li, small {
 }
 
 .client{
+
   background-image: linear-gradient(40deg, #f1f1f1, #E5E8EE) !important;
   border: 1px solid #cccccc7e;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
@@ -587,6 +596,7 @@ input {
   position: relative;
   height: 330px;
   background-blend-mode: multiply;
+  overflow: hidden;
 }
 
 
@@ -651,6 +661,10 @@ input {
     display: grid;
     grid-template-columns: 1fr ;
     gap: 1.7rem;
+  }
+
+  .test-card{
+    min-height: fit-content;
   }
 
   .footer-form{

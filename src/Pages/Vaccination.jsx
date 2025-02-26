@@ -107,7 +107,7 @@ const Vaccination = () => {
 
   return (
     <div className="vaccination">
-      <div className="container2 my-5">
+      <div className="container2 py-4 my-5">
         {/* Hero Section */}
         <div className="text-center v-cover d-flex align-items-center justify-content-center flex-column text-white p-5 gap-3 rounded">
           <h1 className="fw-bold">Get Vaccinated, Stay Protected</h1>
@@ -124,7 +124,7 @@ const Vaccination = () => {
           <h2 className="text-center fw-bolder mb-4">Our Vaccination Services</h2>
           <div className="grid1">
             {vaccines.map((vaccine, index) => (
-              <div key={index} className="mb-4">
+              <div key={index} className="">
                 <div className="client rounded overflow-hidden">
                   <img
                     src={vaccine.image}

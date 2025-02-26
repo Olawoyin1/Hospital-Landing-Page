@@ -6,19 +6,23 @@ const Features = () => {
     const features = [
         {
             name : "Speak to a pharmacist",
-            image : "../../Images/new9.jpg"
+            image : "../../Images/new9.jpg",
+            link: "/appointment"
         },
         {
             name : "Book vaccination",
-            image : "../../Images/new10.jpg"
+            image : "../../Images/new10.jpg",
+            link: "/vaccination"
         },
         {
             name : "Book a labouratory test",
-            image : "../../Images/new11.jpg"
+            image : "../../Images/new11.jpg",
+            link: "/labouratory-test"
         },
         {
             name : "Order prescription medications",
-            image : "../../Images/new.jpg"
+            image : "../../Images/new.jpg",
+            link: "/"
         },
     ]
   return (
@@ -34,7 +38,7 @@ const Features = () => {
                     features.map(feature => (
                         <div className="f-card p-4 d-flex gap-2 flex-column align-items-start justify-content-end border rounded"style={{ backgroundImage: `url(${feature.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                             <h4 className='fw-bold text-white'>{feature.name}</h4>
-                            <Link to='vaccination'>
+                            <Link to={feature.link}>
                                 <button className='main-btn'><span>Book Now</span></button>
                             </Link>
                         </div>
