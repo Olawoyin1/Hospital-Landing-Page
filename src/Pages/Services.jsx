@@ -13,8 +13,8 @@ const Services = () => {
         keywords="pharmacy, healthcare, medications, Lagos, prescription drugs" 
         url="https://biomejhealthcare.com"
       />
-        <div className="faq-header text-center my-5">
-            <h2 className='fw-bolder'>Our Services</h2>
+        <div className="container2 my-1 rounded d-flex align-items-center justify-content-center flex-column p-5 gap-3 faq-header v-cover text-center text-white " style={{backgroundImage : `url('../../Images/pham1.jpg')`}}>
+            <h1 className='fw-bolder'>Our Services</h1>
             <small className="muted">Comprehensive, expert care for your health needs.</small>
         </div>
         <ServiceCard />

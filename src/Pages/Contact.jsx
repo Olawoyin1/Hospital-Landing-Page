@@ -119,8 +119,8 @@ const Contact = () => {
   });
 
   return (
-    <div className="contact-us pb-5">
-      <div className="text-center my-5">
+    <div className="contact-us py-4 pb-5">
+      <div className="text-center container2 my-1 mb-4 rounded d-flex align-items-center justify-content-center flex-column p-5 gap-3 faq-header v-cover text-center text-white " style={{backgroundImage : `url('../../Images/pham7.jpg')`}} >
         <motion.h2
           className="fw-bolder"
           initial={{ opacity: 0, y: 30 }}
@@ -141,7 +141,7 @@ const Contact = () => {
         </motion.small>
       </div>
 
-      <div className="container3">
+      <div className="container3 mt-2">
         <div className="form grid3 gap-4">
           {/* Form Section */}
           <motion.form
