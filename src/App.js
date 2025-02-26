@@ -12,6 +12,7 @@ import Vaccination from './Pages/Vaccination.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
 import { HelmetProvider } from "react-helmet-async";
 import Test from './Pages/Test.jsx';
+import Products from './Pages/Products.jsx';
 
 
 
@@ -31,6 +32,8 @@ function App() {
           <Route path='appointment' element={<Contact />} />
 
           <Route path='vaccination' element={<Vaccination />} />
+
+          <Route path='products' element={<Products />} />
 
           <Route path='labouratory-test' element={<Test />} />
 

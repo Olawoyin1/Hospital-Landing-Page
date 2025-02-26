@@ -100,6 +100,7 @@ const Navbar = () => {
                         <li><Link className='nav-link'onClick={toggleMenu} to="/services">Services</Link></li>
                         <li><Link className='nav-link'onClick={toggleMenu} to="/about">About Us</Link></li>
                         <li><Link className='nav-link'onClick={toggleMenu} to="/vaccination">Vaccination</Link></li>
+                        <li><Link className='nav-link'onClick={toggleMenu} to="/products">Products</Link></li>
                     </ul>
                     <Link to='/appointment' onClick={toggleMenu} className='d-md-none'>
                         <button className='main-btn'>

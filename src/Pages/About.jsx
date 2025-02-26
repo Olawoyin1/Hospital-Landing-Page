@@ -162,7 +162,7 @@ const About = () => {
         url="https://biomejhealthcare.com"
       />
 
-      <div className="container2 my-1 mb-4 rounded d-flex align-items-center justify-content-center flex-column p-5 gap-3 faq-header v-cover text-center text-white " style={{backgroundImage : `url('../../Images/med.jpg')`}}>
+      <div className="container2 my-1 mb-4 rounded d-flex align-items-center justify-content-center flex-column p-5 gap-3 faq-header v-cover text-center text-white " style={{backgroundImage : `url('../../Images/abt.webp')`, backgroundPosition: "top"}}>
         <h1 className='fw-bolder'>About Us</h1>
         <small className="muted">Trusted pharmacy delivering quality care, expert guidance, and reliable medications.</small>
       </div>

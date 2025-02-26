@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Test = () => {
   const labTests = [
@@ -201,14 +202,16 @@ const Test = () => {
     <div className="mm">
       <div className="container2 pt py-4 my-5">
         {/* Hero Section */}
-        <div className="text-center v-cover d-flex align-items-center justify-content-center flex-column text-white p-5 gap-3 rounded">
-          <h1 className="fw-bold">
+        <div className="text-center v-cover d-flex align-items-center justify-content-center flex-column text-white p-5 gap-3 rounded" style={{backgroundImage : `url('../../Images/lab.jpg')`}}>
+          <h2 className="fw-bold">
             Reliable Laboratory Tests, Fast & Accurate Results
-          </h1>
+          </h2>
           <p className="lead">
             Book your lab test today for a healthier tomorrow.
           </p>
-          <button className="btn-light btn-lg mt-3">Book a Test</button>
+          <Link to='/conatact'>
+            <button className="main-btn"><span>Book a Test</span></button>
+          </Link>
         </div>
 
         {/* Available Tests Section */}
